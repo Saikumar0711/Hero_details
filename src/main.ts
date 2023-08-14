@@ -9,7 +9,8 @@ import { AppComponent } from './app/app.component';
   standalone: true,
   imports: [CommonModule,AppComponent],
   template: `
-    <app-app></app-app>
+
+  <app-app></app-app>
   `,
 })
 export class App {
