@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit } from '@angular/core';
 import { Hero } from '../hero';
 import { HEROES } from '../mock-heroes';
 import { HeroComponent } from './hero/hero.component';
@@ -14,10 +14,16 @@ import { HeroComponent } from './hero/hero.component';
 export class HeroesComponent implements OnInit {
   heroes: Hero[] = [];
 
+  
+
   constructor() {}
 
   ngOnInit() {
     this.heroes = HEROES;
     // console.log(this.heroes);
   }
+  onSelected(event: any) {
+    console.log(event);
+  }
 }
+

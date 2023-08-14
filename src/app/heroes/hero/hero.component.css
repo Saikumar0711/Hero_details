@@ -7,9 +7,10 @@
   height: 38vh;
   width: 15rem;
   padding: 0.4rem;
-  background-color: rgb(234, 237, 141);
+  background-color: aqua;
   filter: drop-shadow(10px 10px 20px black);
 }
+
 
 .avatar {
   display: flex;
@@ -40,7 +41,7 @@
   text-align: center;
   height: 5vh;
   width: 100%;
-  font-size: 90%;
+  font-size: 70%;
 }
 .name::selection {
   color: rgb(30, 241, 33);
